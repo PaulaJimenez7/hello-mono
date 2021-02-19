@@ -1,0 +1,7 @@
+version: "3.0"
+services:
+  mono:
+    image: hello-nancy
+    build: .
+    ports:
+      - "4321:4321"
